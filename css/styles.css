@@ -27,3 +27,12 @@ p {
 .btn a span {
   color: white;
 }
+.container {
+  padding: 24px;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+.container-landing {
+  max-width: 80%;
+  margin: 0 auto;
+}
