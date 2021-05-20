@@ -1,31 +1,32 @@
+@font-face {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/quicksand/v22/6xK-dSZaM9iE8KbpRA_LJ3z8mH9BOJvgkP8o18E.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/quicksand/v22/6xK-dSZaM9iE8KbpRA_LJ3z8mH9BOJvgkBgv18E.ttf) format('truetype');
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+  font-family: "Quicksand", sans-serif;
+}
 p {
   font-size: 1em;
   color: #ea83ee;
   background-color: #dbd879;
-}
-.btn {
-  display: inline-block;
-  line-height: 2.2;
-  color: white;
-  text-align: center;
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
-  padding-left: 1em;
-  padding-right: 1em;
-}
-.btn:hover {
-  text-decoration: none;
-  color: white;
-}
-.btn--alert {
-  background-color: #d20000;
-}
-.btn a {
-  color: blue;
-}
-.btn a span {
-  color: white;
 }
 .container {
   padding: 24px;
@@ -35,4 +36,14 @@ p {
 .container-landing {
   max-width: 80%;
   margin: 0 auto;
+}
+.align-right {
+  text-align: end;
+}
+.aling-left {
+  text-align: start;
+}
+.margin-boton {
+  -webkit-margin-after: 12px;
+          margin-block-end: 12px;
 }
